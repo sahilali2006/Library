@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+font-family: sans-serif;    
+line-height: 1.5em;
+border-radius: 10px;
+    
+}
+
+.firstimg{
+    background-image: url(https://th.bing.com/th/id/R.6ea9fcaf23525b520425e3d01a8a0206?rik=LQV%2fFDtIAD5Nbg&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f03%2fDesktop-Wallpapers-feature.jpg&ehk=4wijKbINGVQ4uyrbrAV89twUASDfh%2byh7it%2bDFjEDCU%3d&risl=&pid=ImgRaw&r=0) ;
+    min-height: 100%;
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment :fixed ;
+    border-radius: 10px;
+}
+
+button{
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(41, 36, 36);
+    color: aliceblue;
+    font-size: 20px;
+    border-radius:  20px;
+    border: double;
+    border-color: bisque;
+    box-shadow: 1px 1px 10px black;
+
+    &:hover{
+        background-color: black;
+    }
+   
+}
+
+
+.text{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(43, 31, 31);
+    color: beige;
+    border-radius: 10px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+
+.parafirst{
+margin-left: 70px;
+margin-right: 70px
+}
+
+
+
+.secondimg{
+    background-image: url(https://th.bing.com/th/id/R.1d1e63848c68f91a2f670c24ea928397?rik=Bl5vCQpD7%2b4SHg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2f8%2f9%2f908840-free-wallpaper-hd-pc-2018-1920x1200-samsung-galaxy.jpg&ehk=zFcXzDk7HU628qJdlNaALrIMW6L6fMvK9MuNjGALG4k%3d&risl=&pid=ImgRaw&r=0);
+
+    min-height: 100%;
+
+    
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment :fixed ;
+    border-radius: 10px;
+}
+
+
+.thirdimg{
+    background-image: url(https://th.bing.com/th/id/OIP.s1Lu8IRWWRwagsNXNn8VigHaD1?rs=1&pid=ImgDetMain);
+
+    min-height: 100%;
+
+    position: relative;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment :fixed ;
+    border-radius: 10px;
+}
